@@ -1,7 +1,7 @@
 var library =
-{ "music": {
-        "eighties":{
-          "Michael_Jackson":[
+{ "music": [
+    { "artist": "Michael_Jackson",
+      "albums":[
             {
               "album": "Thriller",
               "song": "Beat it",
@@ -12,8 +12,10 @@ var library =
               "song": "The Way You Make Me Feel",
               "year": 1987
             }
-          ],
-          "Rick_Astley":[
+          ]
+    },
+    { "artist": "Rick_Astley",
+      "albums":[
             {
               "album": "Whenever You Need Somebody",
               "song": "Never Gonna Give You Up",
@@ -24,17 +26,19 @@ var library =
               "song": "Together Forever",
               "year": 1987
             }
-      ]
-        },
-        "nineties":{
-            "Hanson":[
+          ],
+    },
+    { "artist": "Hanson",
+      "albums":[
             {
               "album": "Middle of Nowhere",
               "song": "MMMbop",
               "year": 1996
             }
           ],
-          "Nirvana":[
+    },
+    { "artist": "Nirvana",
+      "albums":[
             {
               "album": "Nevermind",
               "song": "Smells Like Teen Spirit",
@@ -50,10 +54,10 @@ var library =
               "song": "In Utero",
               "year": 1993
             }
-          ]
-        },
-        "two_thousands":{
-            "Black_Eyed_Peas":[
+          ],
+    },
+    { "artist": "Black_Eyed_Peas",
+      "albums":[
             {
               "album": "Elephunk",
               "song": "Let's Get It Started",
@@ -65,16 +69,19 @@ var library =
               "year": 2009
             }
           ],
-            "Lady_Gaga":[
+    },
+    {
+       "artist": "Lady_Gaga",
+       "albums":[
             {
               "album": "The Fame",
               "song": "Just Dance",
               "year": 2006
             }
           ],
-        },
-        "twenty_tens":{
-          "Adele":[
+    },
+    { "artist": "Adele",
+      "albums":[
             {
               "album": "21",
               "song": "Rolling in the Deep",
@@ -85,9 +92,9 @@ var library =
               "song": "Set Fire to the Rain",
               "year": 2011
             }
-          ],
-        }
-      }
+          ]
+    }
+  ]
 };
 
 
